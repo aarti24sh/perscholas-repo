@@ -1,0 +1,36 @@
+.card-body {
+    width: 300px;
+    text-align: center;
+    color: white; /* Initial color */
+    transition: color 2s;
+  }
+
+  .card-body:hover {
+    width: 300px;
+    text-align: center;
+    color: black;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+  }
+
+  .img-container video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .card-body p,
+  .card-body h1 {
+    margin: 8px;
+  }
+
+  .container {display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+  }
+  .card-body {
+    margin-bottom: 20px;
+  }
