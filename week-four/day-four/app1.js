@@ -280,5 +280,71 @@ function printLongestWord(strs) {
 
     return longestWord;
 }
-
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+//Objects
+//A. Make a User Object
+const user = {
+    name : "Aarti",
+    email : "aarti@xxx.com",
+    age : 20,
+    purchased : []
+};
+console.log(user);
+//B. Update the User
+user.email = "kiera@xxx.com";
+console.log(user);
+user.age++;
+console.log(user);
+//C. Adding Keys and Values
+//user.location = "Seattle, WA";
+user["location"] = "Seattle, WA";
+console.log(user);
+user.purchased.push("carbohydrates");
+console.log(user);
+user.purchased.push("peace of mind");
+user.purchased.push("Merino jodhpurs");
+console.log(user);
+console.log(user.purchased.pop());
+const friend = {
+    name : "Sirisha",
+    email : "siri@xxx.com",
+    age : 25,
+    location : "Portland, OR",
+    purchased : []
+};
+user.friend = friend;
+console.log(user);
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push("The One Ring");
+user.friend.purchased.push("A latte");
+console.log(user);
+console.log(user.friend.purchased.pop());
+
+//F. Loops
+for (let index = 0; index < user.purchased.length; index++) {
+    console.log(`User purchased item : ${user.purchased[index]}`);
+}
+
+for (let index = 0; index < user.friend.purchased.length; index++) {
+    console.log(`User's friend purchased item : ${user.friend.purchased[index]}`);
+}
+
+//G. Functions Operating on Objects
+//function updateUser() {
+    //user.age++;
+    //user.name = user.name.toUpperCase();
+//}
+
+//updateUser();
+console.log(`Updated user is : ${user}`);
+
+function oldAndLoud(person) {
+    person.age++;
+    person.name = person.name.toUpperCase();
+}
+
+oldAndLoud(user);
+console.log(`Updated user by oldAndLoud function is : ${user.name} ${user.age}`);
