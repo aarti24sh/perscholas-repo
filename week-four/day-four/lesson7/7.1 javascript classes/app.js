@@ -61,7 +61,7 @@ class Pirate {
     }
 }
 
-const jollyRoger = [];
+/*const jollyRoger = [];
 const pirate1 = new Pirate("Barbossa","Avast ye!","Gold chest");
 const pirate2 = new Pirate("Blackbeard", "Ahoy there ...", "Diamond pendants");
 const pirate3 = new Pirate("Edward England","Shiver me timbers!", "Sunken ship treasure");
@@ -80,4 +80,4 @@ jollyRoger.forEach(function (pirate) {
 
 blackPearl.forEach(function (pirate) {
     console.log(`${pirate.defend()}`);
-});
+});*/
