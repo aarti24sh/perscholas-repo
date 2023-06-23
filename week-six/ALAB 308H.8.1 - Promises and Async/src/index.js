@@ -10,10 +10,7 @@ async function getUserData(id) {
 
   const dbId = await central(id);
 
-  //const userInformation = await dbs[dbId](id);
-  //const vaultInformation = await vault(id);
-
-  Promise.all([await dbs[dbId](id), await vault(id)]).then(([userInformation, vaultInformation]) => {
+   Promise.all([await dbs[dbId](id), await vault(id)]).then(([userInformation, vaultInformation]) => {
     let userData = {};
     userData.userInformation = userInformation;
     userData.vaultInformation = vaultInformation;
