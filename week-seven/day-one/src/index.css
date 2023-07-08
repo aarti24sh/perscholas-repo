@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  border: 1px solid red;
+  height: 50px;
+  width:80%;
+}
+.SearchBar{
+  border: 1px solid green;
+  height: 50px;
+  width:80%;
+}
+.EmployeeList{
+  border: 1px solid blue;
+  height: 50px;
+  width:80%;
+}
+.EmployeeListItem{
+  border: 1px solid purple;
+  height: 50px;
+  width:80%;
+}
+.Header{
+  border: 1px solid red;
+  height: 50px;
+  width:80%;
+}

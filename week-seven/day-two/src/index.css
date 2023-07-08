@@ -11,3 +11,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  border-left: 5px solid lightgray;
+  /* margin-left: 10px; */
+}
+
+header {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header , main, footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: #ee0000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 3em;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+}
+/* continues{
+  color: tomato;
+  text-align: right;
+} */
+.main-navbar {
+  display: flex;
+  justify-content:space-between;
+  padding-top: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  display:inline-block;
+  
+}
+.nav-item a {
+  color: lightgray;
+  text-decoration: underline;
+}
+nav a{
+  text-decoration: none;
+  color: tomato;
+  width: 100px;
+  display: block;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+main {
+  padding-top: 40px;
+}
+
+nav ul {
+  padding-left: 0px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2em;
+}
+
+.continue {
+  color: tomato;
+  font-weight: bold;
+  float: auto;
+  text-decoration: none;
+}
+
+.first-word-uppercase-p::first-letter {
+  font-size: 5em;
+  display: block;
+  float: left;
+  margin-right: 5pt;
+}
+        
+
+
+
+
+
+
+

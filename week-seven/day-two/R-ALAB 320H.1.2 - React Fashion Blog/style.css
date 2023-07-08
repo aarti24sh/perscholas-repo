@@ -1,0 +1,27 @@
+border{
+    width: 5px;
+    color: lightgray;
+}
+
+body{
+    min-height: 100% ;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+h1{
+    color: tomato;
+}
+.images{
+    width: 50%;
+}
+continues{
+    color: tomato;
+    text-align: right;
+}
+nav{
+    display:flex=table-row;
+}
+
+
+
+
