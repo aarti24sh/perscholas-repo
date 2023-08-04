@@ -1,0 +1,15 @@
+
+.movie-list,.show-list{
+margin: 20px  0px;
+ h2 {
+color:rgb(157, 255, 0);
+margin: bottom 10px;
+font-weight: 400;
+}
+}
+
+.movie-container{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(220px));
+grid: gap 15px;
+}
