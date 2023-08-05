@@ -1,15 +1,28 @@
 
 .movie-list,.show-list{
-margin: 20px  0px;
- h2 {
-color:rgb(157, 255, 0);
-margin: bottom 10px;
-font-weight: 400;
-}
+    margin: 20px  0px;
+    color: orangered;
 }
 
-.movie-container{
-display: grid;
+h2 {
+    color:orangered;
+    margin: bottom 10px;
+    font-weight: 400;
+}
+
+.movie-container {
+display: flex;
 grid-template-columns: repeat(auto-fill,minmax(220px));
 grid: gap 15px;
+}
+
+@media (max-width: 768px) {
+    .movie-card-container {
+      flex-direction: row; /* Stack cards vertically on small screens */
+    }
+  
+    .movie-card {
+      width: 100%; /* Cards take full width on small screens */
+      margin-right: 0; /* Remove margin between cards */
+    }
 }

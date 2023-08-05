@@ -45,8 +45,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-a{
+a {
   text-decoration: orangered;
+  color: black;
 }
 body{
   background: black;
